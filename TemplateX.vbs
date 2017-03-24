@@ -25,5 +25,5 @@ For Each objParagraph in objDoc.Paragraphs
     For wordCount =  0 to objParagraph.Words
         wordCount = wordCount + 1
     Next
- Next  
+Next  
 MsgBox (wordCount)
